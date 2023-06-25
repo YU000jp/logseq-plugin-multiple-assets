@@ -1,6 +1,6 @@
 # Logseq Plugin: Multiple Files into Assets
 
-- Insert multiple files into an asset.
+- Insert multiple files into assets.
 
 - Development stage 👷🚧
 

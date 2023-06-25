@@ -41,6 +41,11 @@ Trigger 💾Insert multiple files into assets from the Block context menu (to op
 
 ## Prior art & Credit
 
+### Logseq Plugin
+
+- [b-yp/ logseq-link-to-local](https://github.com/b-yp/logseq-link-to-local/tree/dev)
+- [hkgnp/ logseq-localassets-plugin](https://github.com/hkgnp/logseq-localassets-plugin)
+
 ### Icon
 
 - [icooon-mono.com](https://icooon-mono.com/15427-%e3%83%95%e3%82%a9%e3%83%ab%e3%83%80%e3%82%a2%e3%82%a4%e3%82%b3%e3%83%b312/)

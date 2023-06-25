@@ -10,14 +10,9 @@ const main = () => {
   //   try {
   //     await l10nSetup({ builtinTranslations: { ja } });
   //   } finally {
-      /* user settings */
-      logseq.useSettingsSchema(settingsTemplate);
-      if (!logseq.settings) {
-        setTimeout(() => {
-          logseq.showSettingsUI();
-        }
-          , 300);
-      }
+  /* user settings */
+  logseq.useSettingsSchema(settingsTemplate);
+  if (!logseq.settings) setTimeout(() => logseq.showSettingsUI(), 300);
   //   }
   // })();
 

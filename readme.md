@@ -4,8 +4,6 @@
 
 - Development stage 👷🚧
 
-> This plugin still has room for improvement. Please let me know if you encounter any issues or have any ideas for enhancement.
-
 [![latest release version](https://img.shields.io/github/v/release/YU000jp/logseq-plugin-multiple-assets)](https://github.com/YU000jp/logseq-plugin-multiple-assets/releases)
 [![License](https://img.shields.io/github/license/YU000jp/logseq-plugin-multiple-assets?color=blue)](https://github.com/YU000jp/logseq-plugin-multiple-assets/LICENSE)
 [![Downloads](https://img.shields.io/github/downloads/YU000jp/logseq-plugin-multiple-assets/total.svg)](https://github.com/YU000jp/logseq-plugin-multiple-assets/releases)
@@ -13,7 +11,9 @@
 
 ---
 
-## Features
+## Feature
+
+![Assets](https://github.com/YU000jp/logseq-plugin-multiple-assets/assets/111847207/2015fc16-8ea0-407d-979b-035ca612f3b4)
 
 ---
 

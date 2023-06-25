@@ -27,7 +27,7 @@
 
 ### Usage
 
-Trigger 💾Insert multiple files into assets from the Block context menu (to open the options on right-click).
+Trigger `💾Insert multiple files into assets` from the Block context menu (to open the options on right-click).
 
 ---
 

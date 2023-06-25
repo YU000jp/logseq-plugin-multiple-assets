@@ -6,7 +6,7 @@
     "license": "MIT",
     "logseq": {
         "id": "multiple-assets",
-        "title": "Multiple Files into an Asset",
+        "title": "Multiple Files into Assets",
         "icon": "./icon.svg",
         "main": "./dist/index.html"
     },

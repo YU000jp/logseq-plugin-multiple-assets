@@ -27,6 +27,8 @@
 
 ### Usage
 
+Trigger 💾Insert multiple files into assets from the Block context menu (to open the options on right-click).
+
 ---
 
 ## Showcase / Questions / Ideas / Help
@@ -41,7 +43,7 @@
 
 ### Icon
 
-- [icooon-mono.com](https://icooon-mono.com/)
+- [icooon-mono.com](https://icooon-mono.com/15427-%e3%83%95%e3%82%a9%e3%83%ab%e3%83%80%e3%82%a2%e3%82%a4%e3%82%b3%e3%83%b312/)
 
 ---
 

@@ -25,9 +25,13 @@ const main = () => {
     "💾 Upload multiple assets",
     async ({ uuid }) => await embedHelper(uuid, true));
 
-  // logseq.Editor.registerBlockContextMenuItem(
-  //   "💾Insert multiple files from local",
-  //   async ({ uuid }) => embedHelper(uuid, false));
+  if (logseq.settings!.fromLocalBlockContext) logseq.Editor.registerBlockContextMenuItem(
+    "💾Insert multiple files from local",
+    async ({ uuid }) => embedHelper(uuid, false));
+
+  logseq.Editor.registerSlashCommand(
+    "💾Insert multiple files from local",
+    async ({ uuid }) => embedHelper(uuid, false));
 };/* end_main */
 
 
@@ -40,6 +44,7 @@ interface Files {
 function returnFilePath(
   isAsset: boolean,
   emoji: any,
+  rename: string,
   name: string,
   path: string,
   isEmbed: boolean,
@@ -47,14 +52,13 @@ function returnFilePath(
   return (
     isAsset
       ? isEmbed ?
-        `![${emoji} ${name}](../assets/storages/${logseq.baseInfo.id}/${name})`
-        : `[${emoji} ${name}](../assets/storages/${logseq.baseInfo.id}/${name})`
+        `![${emoji} ${name}](../assets/storages/${logseq.baseInfo.id}/${rename})`
+        : `[${emoji} ${name}](../assets/storages/${logseq.baseInfo.id}/${rename})`
       : isEmbed ?
         `![${emoji} ${name}](file://${path})`
         : `[${emoji} ${name}](file://${path})`
   );
 }
-
 
 async function embedHelper(
   uuid: string,
@@ -114,7 +118,7 @@ async function embedHelper(
           }
         }
         let isEmbed: boolean;
-        let icon = "📑";
+        let icon: string;
         if (type.startsWith("image")) {
           icon = "🖼";
           isEmbed = true;
@@ -129,7 +133,7 @@ async function embedHelper(
           isEmbed = false;
         } else if (type.startsWith("text/plain")) {
           icon = "📄";
-          isEmbed = true;
+          isEmbed = false;
         } else if (type.startsWith("application/pdf")) {
           icon = "📰";
           isEmbed = true;
@@ -137,7 +141,7 @@ async function embedHelper(
           icon = "📑";
           isEmbed = false;
         }
-        setTimeout(() => logseq.Editor.insertBlock(uuid, returnFilePath(isAsset, icon, rename, path, isEmbed), { focus: true }), 30);
+        setTimeout(() => logseq.Editor.insertBlock(uuid, returnFilePath(isAsset, icon, rename,name, path, isEmbed), { focus: true }), 30);
       }
     } finally {
       setTimeout(() => logseq.Editor.selectBlock(uuid), 300);
@@ -165,6 +169,13 @@ const settingsTemplate: SettingSchemaDesc[] = [
     type: "boolean",
     title: "Add timestamp to file name",
     description: "default: `false`",
+    default: false,
+  },
+  {
+    key: "fromLocalBlockContext",
+    type: "boolean",
+    title: "Enable `💾Insert multiple files from local` block context menu item",
+    description: "default: `false` (⚠️need to turn off this plugin or restart Logseq to take effect)",
     default: false,
   }
 ];

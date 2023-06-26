@@ -27,7 +27,23 @@
 
 ### Usage
 
-Trigger `💾Insert multiple files into assets` from the Block context menu (to open the options on right-click).
+#### Trigger `💾Insert multiple files into assets`
+
+- From the Block context menu (to open the options on right-click)
+- As slash command
+
+#### Plugin Settings
+
+- Overwrite existing files with the same name: Select
+  - `skip`
+  - `overwrite`
+  - `timestamp`
+- Add timestamp to file name: Toggle
+- `true`
+- `false` default
+- Enable `💾Insert multiple files from local` block context menu item
+- `true`
+- `false` default
 
 ---
 

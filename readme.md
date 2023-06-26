@@ -39,11 +39,11 @@
   - `overwrite`
   - `timestamp`
 - Add timestamp to file name: Toggle
-- `true`
-- `false` default
+  - `true`
+  - `false` default
 - Enable `💾Insert multiple files from local` block context menu item
-- `true`
-- `false` default
+  - `true`
+  - `false` default
 
 ### Option
 

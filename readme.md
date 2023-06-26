@@ -29,7 +29,7 @@
 
 #### Trigger `💾Insert multiple files into assets`
 
-- From the Block context menu (to open the options on right-click)
+- From the Block context menu (to open the options on right-click the bullet)
 - As slash command
 
 #### Plugin Settings

@@ -27,7 +27,7 @@
 
 ### Usage
 
-#### Trigger `💾Insert multiple files into assets`
+#### Trigger `💾 Upload multiple assets`
 
 - From the Block context menu (to open the options on right-click the bullet)
 - As slash command

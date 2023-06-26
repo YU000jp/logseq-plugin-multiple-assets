@@ -49,7 +49,6 @@
 
 #### Trigger `💾Insert multiple files from local`
 
-- method: alias
 - Embed or link contents without saving them in the assets folder.
 
 ---

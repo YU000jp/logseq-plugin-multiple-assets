@@ -5,7 +5,7 @@
 [![latest release version](https://img.shields.io/github/v/release/YU000jp/logseq-plugin-multiple-assets)](https://github.com/YU000jp/logseq-plugin-multiple-assets/releases)
 [![License](https://img.shields.io/github/license/YU000jp/logseq-plugin-multiple-assets?color=blue)](https://github.com/YU000jp/logseq-plugin-multiple-assets/LICENSE)
 [![Downloads](https://img.shields.io/github/downloads/YU000jp/logseq-plugin-multiple-assets/total.svg)](https://github.com/YU000jp/logseq-plugin-multiple-assets/releases)
-<!-- Published 2023 -->
+ Published 2023/06/27
 
 ---
 
@@ -19,11 +19,13 @@
 
 ## Getting Started
 
-### Install from Logseq Marketplace (Coming👷🚧)
+### Install from Logseq Marketplace
 
 - Press [`---`] on the top right toolbar to open [`Plugins`]
 - Select `Marketplace`
 - Type `File` in the search field, select it from the search results and install
+
+   ![image](https://github.com/YU000jp/logseq-plugin-multiple-assets/assets/111847207/5a3933c0-13f5-4c21-8fc8-c70429d7ad29)
 
 ### Usage
 
@@ -35,7 +37,7 @@
 #### Plugin Settings
 
 - Overwrite existing files with the same name: Select
-  - `skip`
+  - `skip` default
   - `overwrite`
   - `timestamp`
 - Add timestamp to file name: Toggle

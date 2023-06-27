@@ -1,3 +1,11 @@
+## [1.1.1](https://github.com/YU000jp/logseq-plugin-multiple-assets/compare/v1.1.0...v1.1.1) (2023-06-27)
+
+
+### Bug Fixes
+
+* **bug:** insert timestamp to file name ([b6d98aa](https://github.com/YU000jp/logseq-plugin-multiple-assets/commit/b6d98aabced8d5f17a4cb5cec57fb23388eb5bf3))
+* **Change:** timestamp format ([52d4e47](https://github.com/YU000jp/logseq-plugin-multiple-assets/commit/52d4e475200d94d452a1b63b553d9179fcd979b2))
+
 # [1.1.0](https://github.com/YU000jp/logseq-plugin-multiple-assets/compare/v1.0.0...v1.1.0) (2023-06-26)
 
 

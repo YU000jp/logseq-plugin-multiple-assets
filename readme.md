@@ -2,8 +2,6 @@
 
 - Insert multiple files into assets.
 
-- Development stage 👷🚧
-
 [![latest release version](https://img.shields.io/github/v/release/YU000jp/logseq-plugin-multiple-assets)](https://github.com/YU000jp/logseq-plugin-multiple-assets/releases)
 [![License](https://img.shields.io/github/license/YU000jp/logseq-plugin-multiple-assets?color=blue)](https://github.com/YU000jp/logseq-plugin-multiple-assets/LICENSE)
 [![Downloads](https://img.shields.io/github/downloads/YU000jp/logseq-plugin-multiple-assets/total.svg)](https://github.com/YU000jp/logseq-plugin-multiple-assets/releases)
@@ -11,9 +9,11 @@
 
 ---
 
+- ⚠️Using this plugin, files are saved not in the `assets/` folder but in the `assets/storages/multiple-assets/` folder.
+
 ## Feature
 
-![Assets](https://github.com/YU000jp/logseq-plugin-multiple-assets/assets/111847207/2015fc16-8ea0-407d-979b-035ca612f3b4)
+![image](https://github.com/YU000jp/logseq-plugin-multiple-assets/assets/111847207/789a232e-7e37-4033-8048-6d33364eb70d)
 
 ---
 
@@ -22,7 +22,7 @@
 ### Install from Logseq Marketplace (Coming👷🚧)
 
 - Press [`---`] on the top right toolbar to open [`Plugins`]
-- Select marketplace
+- Select `Marketplace`
 - Type `File` in the search field, select it from the search results and install
 
 ### Usage

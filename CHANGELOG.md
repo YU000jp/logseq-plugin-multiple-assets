@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/YU000jp/logseq-plugin-multiple-assets/compare/v1.1.1...v1.1.2) (2023-06-27)
+
+
+### Bug Fixes
+
+* **Change:** plugin description ([9e46a6c](https://github.com/YU000jp/logseq-plugin-multiple-assets/commit/9e46a6ced3cc11a41b2decce9603d9f8ba4ca33d))
+
 ## [1.1.1](https://github.com/YU000jp/logseq-plugin-multiple-assets/compare/v1.1.0...v1.1.1) (2023-06-27)
 
 

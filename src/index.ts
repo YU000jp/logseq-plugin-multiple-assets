@@ -7,6 +7,7 @@ import { SettingSchemaDesc } from '@logseq/libs/dist/LSPlugin.user';
 
 /* main */
 const main = () => {
+
   // (async () => {
   //   try {
   //     await l10nSetup({ builtinTranslations: { ja } });
@@ -26,13 +27,15 @@ const main = () => {
     async ({ uuid }) => await embedHelper(uuid, true));
 
   if (logseq.settings!.fromLocalBlockContext) logseq.Editor.registerBlockContextMenuItem(
-    "💾Insert multiple files from local",
+    "📂 Insert multiple files from local folder",
     async ({ uuid }) => embedHelper(uuid, false));
 
   logseq.Editor.registerSlashCommand(
-    "💾Insert multiple files from local",
+    "📂 Insert multiple files from local folder",
     async ({ uuid }) => embedHelper(uuid, false));
+
 };/* end_main */
+
 
 
 interface Files {
@@ -41,24 +44,6 @@ interface Files {
   path?: string;
 }
 
-function returnFilePath(
-  isAsset: boolean,
-  emoji: any,
-  rename: string,
-  name: string,
-  path: string,
-  isEmbed: boolean,
-): string {
-  return (
-    isAsset
-      ? isEmbed ?
-        `![${emoji} ${name}](../assets/storages/${logseq.baseInfo.id}/${rename})`
-        : `[${emoji} ${name}](../assets/storages/${logseq.baseInfo.id}/${rename})`
-      : isEmbed ?
-        `![${emoji} ${name}](file://${path})`
-        : `[${emoji} ${name}](file://${path})`
-  );
-}
 
 async function embedHelper(
   uuid: string,
@@ -86,12 +71,14 @@ async function embedHelper(
         let rename: string;
         let duplicate: Boolean = false;
         if (logseq.settings!.timestamp === true) {
-          rename = `${Date.now()}_` + name;
+          //「yyyymmdd」のフォーマットにしたい
+          rename = `${timestamp()}_` + name;
         } else {
           ////ファイル重複チェック
           if (await storage.hasItem(name) as boolean) {
             if (logseq.settings!.overwrite === "timestamp") {
-              rename = `${Date.now()}_` + name;
+              //「yyyymmdd」のフォーマットにしたい
+              rename = `${timestamp()}_` + name;
             } else if (logseq.settings!.overwrite === "overwrite") {
               await storage.removeItem(name);
               rename = name;
@@ -141,7 +128,7 @@ async function embedHelper(
           icon = "📑";
           isEmbed = false;
         }
-        setTimeout(() => logseq.Editor.insertBlock(uuid, returnFilePath(isAsset, icon, rename,name, path, isEmbed), { focus: true }), 30);
+        setTimeout(() => logseq.Editor.insertBlock(uuid, returnFilePath(isAsset, icon, rename, name, path, isEmbed), { focus: true }), 30);
       }
     } finally {
       setTimeout(() => logseq.Editor.selectBlock(uuid), 300);
@@ -150,6 +137,29 @@ async function embedHelper(
 
   btn.addEventListener("click", () => fileInput.click());
   btn.click();
+}
+
+
+const timestamp = () => new Date().toISOString().slice(0, 10).replace(/-/g, "");
+
+
+function returnFilePath(
+  isAsset: boolean,
+  emoji: any,
+  rename: string,
+  name: string,
+  path: string,
+  isEmbed: boolean,
+): string {
+  return (
+    isAsset
+      ? isEmbed ?
+        `![${emoji} ${name}](../assets/storages/${logseq.baseInfo.id}/${rename})`
+        : `[${emoji} ${name}](../assets/storages/${logseq.baseInfo.id}/${rename})`
+      : isEmbed ?
+        `![${emoji} ${name}](file://${path})`
+        : `[${emoji} ${name}](file://${path})`
+  );
 }
 
 
@@ -174,7 +184,7 @@ const settingsTemplate: SettingSchemaDesc[] = [
   {
     key: "fromLocalBlockContext",
     type: "boolean",
-    title: "Enable `💾Insert multiple files from local` block context menu item",
+    title: "Enable `📂Insert multiple files from local folder` block context menu item",
     description: "default: `false` (⚠️need to turn off this plugin or restart Logseq to take effect)",
     default: false,
   }

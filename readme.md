@@ -41,13 +41,13 @@
 - Add timestamp to file name: Toggle
   - `true`
   - `false` default
-- Enable `💾Insert multiple files from local` block context menu item
+- Enable `📂 Insert multiple files from local folder` block context menu item
   - `true`
   - `false` default
 
 ### Option
 
-#### Trigger `💾Insert multiple files from local`
+#### Trigger `📂 Insert multiple files from local folder`
 
 - Embed or link contents without saving them in the assets folder.
 

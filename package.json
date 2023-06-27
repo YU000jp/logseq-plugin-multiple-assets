@@ -1,6 +1,6 @@
 {
     "name": "logseq-plugin-multiple-assets",
-    "description": "Insert multiple files into assets.",
+    "description": "Save multiple files into assets and embed or link the content.",
     "repository": "https://github.com/YU000jp/logseq-plugin-multiple-assets.git",
     "author": "YU000jp",
     "license": "MIT",

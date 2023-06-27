@@ -1,6 +1,6 @@
 # Logseq Plugin: Multiple Files into Assets 📂
 
-- Insert multiple files into assets.
+- Save multiple files into assets and embed or link the content.
 
 [![latest release version](https://img.shields.io/github/v/release/YU000jp/logseq-plugin-multiple-assets)](https://github.com/YU000jp/logseq-plugin-multiple-assets/releases)
 [![License](https://img.shields.io/github/license/YU000jp/logseq-plugin-multiple-assets?color=blue)](https://github.com/YU000jp/logseq-plugin-multiple-assets/LICENSE)

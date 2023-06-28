@@ -9,7 +9,7 @@
 
 ---
 
-- ⚠️Using this plugin, files are saved not in the `assets/` folder but in the `assets/storages/multiple-assets/` folder.
+- ⚠️Using this plugin, files are saved not in the `assets/` folder but in the `assets/storages/logseq-plugin-multiple-assets/` folder.
 
 ## Feature
 

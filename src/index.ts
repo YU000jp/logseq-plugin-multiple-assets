@@ -140,7 +140,7 @@ async function embedHelper(
 }
 
 
-const timestamp = () => new Date().toISOString().slice(0, 10).replace(/-/g, "");
+const timestamp = () => new Date().toISOString().slice(0, 19).replace(/[-:]/g, "").replace("T", "_");
 
 
 function returnFilePath(

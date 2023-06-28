@@ -1,3 +1,10 @@
+## [1.1.3](https://github.com/YU000jp/logseq-plugin-multiple-assets/compare/v1.1.2...v1.1.3) (2023-06-28)
+
+
+### Bug Fixes
+
+* **bug:** duplicate timestamp ([0873c75](https://github.com/YU000jp/logseq-plugin-multiple-assets/commit/0873c7502a78a1062c27f2de5f42a633f980b9d7))
+
 ## [1.1.2](https://github.com/YU000jp/logseq-plugin-multiple-assets/compare/v1.1.1...v1.1.2) (2023-06-27)
 
 

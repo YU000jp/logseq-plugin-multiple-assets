@@ -31,7 +31,7 @@
 
 #### Trigger `💾 Upload multiple assets`
 
-- From the Block context menu (to open the options on right-click the bullet)
+- From the Block context menu (to open the options, right-click the bullet that has the desired property)
 - As slash command
 
 #### Plugin Settings

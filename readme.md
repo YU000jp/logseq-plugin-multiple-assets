@@ -1,4 +1,4 @@
-# Logseq Plugin: Multiple Files into Assets 📂
+# Logseq Plugin: *Multiple Files into Assets* 📂
 
 - Save multiple files into assets and embed or link the content.
 

@@ -65,6 +65,8 @@
 
 ## Prior art & Credit
 
+- [@logseq/lib](https://github.com/logseq/logseq/pull/6488)
+
 ### Logseq Plugin
 
 - [b-yp/ logseq-link-to-local](https://github.com/b-yp/logseq-link-to-local/tree/dev)

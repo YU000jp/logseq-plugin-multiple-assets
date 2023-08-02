@@ -1,3 +1,10 @@
+## [1.1.4](https://github.com/YU000jp/logseq-plugin-multiple-assets/compare/v1.1.3...v1.1.4) (2023-08-02)
+
+
+### Bug Fixes
+
+* Change default for first user ([0c3ad78](https://github.com/YU000jp/logseq-plugin-multiple-assets/commit/0c3ad78cd84ec2b578b3642fd79d4b608ae11373))
+
 ## [1.1.3](https://github.com/YU000jp/logseq-plugin-multiple-assets/compare/v1.1.2...v1.1.3) (2023-06-28)
 
 

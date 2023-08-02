@@ -186,7 +186,7 @@ const settingsTemplate: SettingSchemaDesc[] = [
     type: "boolean",
     title: "Enable `📂Insert multiple files from local folder` block context menu item",
     description: "default: `false` (⚠️need to turn off this plugin or restart Logseq to take effect)",
-    default: false,
+    default: true,
   }
 ];
 

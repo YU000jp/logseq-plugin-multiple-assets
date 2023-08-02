@@ -44,8 +44,8 @@
   - `true`
   - `false` default
 - Enable `📂 Insert multiple files from local folder` block context menu item
-  - `true`
-  - `false` default
+  - `true` default
+  - `false`
 
 ### Option
 

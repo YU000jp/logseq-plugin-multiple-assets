@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/YU000jp/logseq-plugin-multiple-assets/compare/v1.1.4...v1.2.0) (2023-09-30)
+
+
+### Features
+
+* **translation:** ja ([b5243d3](https://github.com/YU000jp/logseq-plugin-multiple-assets/commit/b5243d365d99de5aa079dc67b7685e76b6f78c6b))
+
 ## [1.1.4](https://github.com/YU000jp/logseq-plugin-multiple-assets/compare/v1.1.3...v1.1.4) (2023-08-02)
 
 

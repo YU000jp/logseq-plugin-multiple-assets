@@ -1,3 +1,9 @@
 {
-
+    "Overwrite existing files with the same name": "同じファイル名が見つかった場合に上書きするか、タイムスタンプを付けるかどうか",
+    "Add timestamp to file name": "ファイル名にタイムスタンプをつける",
+    "Enable `📂Insert multiple files from local folder` block context menu item": "有効にする:  `📂ローカルフォルダから複数のファイルを挿入` ブロックのコンテキストメニュー項目",
+    "default: `true` (⚠️need to turn off this plugin or restart Logseq to take effect)": "デフォルト: `true` (⚠️このプラグインを無効にするか、Logseqを再起動する必要があります)",
+    "File saved to assets": "ファイルがアセットに保存されました",
+    "📂 Insert multiple files from local folder": "ローカルフォルダから複数のファイルを挿入",
+    "💾 Upload multiple assets": "アセットとして複数アップロード"
 }

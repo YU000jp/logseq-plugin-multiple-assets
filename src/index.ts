@@ -1,25 +1,25 @@
 import '@logseq/libs'; //https://plugins-doc.logseq.com/
 import { IAsyncStorage } from '@logseq/libs/dist/modules/LSPlugin.Storage';
 import { SettingSchemaDesc } from '@logseq/libs/dist/LSPlugin.user';
-//import { setup as l10nSetup, t } from "logseq-l10n"; //https://github.com/sethyuan/logseq-l10n
-//import ja from "./translations/ja.json";
+import { setup as l10nSetup, t } from "logseq-l10n"; //https://github.com/sethyuan/logseq-l10n
+import ja from "./translations/ja.json";
 
 
 /* main */
 const main = () => {
 
-  // (async () => {
-  //   try {
-  //     await l10nSetup({ builtinTranslations: { ja } });
-  //   } finally {
-  /* user settings */
-  logseq.useSettingsSchema(settingsTemplate);
-  if (!logseq.settings) setTimeout(() => logseq.showSettingsUI(), 300);
-  //   }
-  // })();
+  (async () => {
+    try {
+      await l10nSetup({ builtinTranslations: { ja } });
+    } finally {
+      /* user settings */
+      logseq.useSettingsSchema(settingsTemplate());
+      if (!logseq.settings) setTimeout(() => logseq.showSettingsUI(), 300);
+    }
+  })();
 
   logseq.Editor.registerBlockContextMenuItem(
-    "💾 Upload multiple assets",
+    t("💾 Upload multiple assets"),
     async ({ uuid }) => await embedHelper(uuid, true));
 
   logseq.Editor.registerSlashCommand(
@@ -27,7 +27,7 @@ const main = () => {
     async ({ uuid }) => await embedHelper(uuid, true));
 
   if (logseq.settings!.fromLocalBlockContext) logseq.Editor.registerBlockContextMenuItem(
-    "📂 Insert multiple files from local folder",
+    t("📂 Insert multiple files from local folder"),
     async ({ uuid }) => embedHelper(uuid, false));
 
   logseq.Editor.registerSlashCommand(
@@ -101,7 +101,7 @@ async function embedHelper(
             logseq.UI.showMsg(`Error writing file: ${rename}`, 'error');
             continue;
           } finally {
-            logseq.UI.showMsg("File saved to assets", 'success', { timeout: 1300 });
+            logseq.UI.showMsg(t("File saved to assets"), 'success', { timeout: 1300 });
           }
         }
         let isEmbed: boolean;
@@ -165,11 +165,11 @@ function returnFilePath(
 
 /* user setting */
 // https://logseq.github.io/plugins/types/SettingSchemaDesc.html
-const settingsTemplate: SettingSchemaDesc[] = [
+const settingsTemplate = (): SettingSchemaDesc[] => [
   {//同じファイル名が見つかった場合に上書きするか、timestampを付けるかどうか
     key: "overwrite",
     type: "enum",
-    title: "Overwrite existing files with the same name",
+    title: t("Overwrite existing files with the same name"),
     description: "default: `skip`",
     enumChoices: ["skip", "overwrite", "timestamp"],
     default: "skip",
@@ -177,15 +177,15 @@ const settingsTemplate: SettingSchemaDesc[] = [
   {//ファイル名にtimestampをつける
     key: "timestamp",
     type: "boolean",
-    title: "Add timestamp to file name",
+    title: t("Add timestamp to file name"),
     description: "default: `false`",
     default: false,
   },
   {
     key: "fromLocalBlockContext",
     type: "boolean",
-    title: "Enable `📂Insert multiple files from local folder` block context menu item",
-    description: "default: `false` (⚠️need to turn off this plugin or restart Logseq to take effect)",
+    title: t("Enable `📂Insert multiple files from local folder` block context menu item"),
+    description: t("default: `true` (⚠️need to turn off this plugin or restart Logseq to take effect)"),
     default: true,
   }
 ];

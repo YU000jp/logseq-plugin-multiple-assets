@@ -21,9 +21,7 @@
 
 ### Install from Logseq Marketplace
 
-- Press [`---`] on the top right toolbar to open [`Plugins`]
-- Select `Marketplace`
-- Type `Assets` in the search field, select it from the search results and install
+- Press [`---`] on the top right toolbar to open [`Plugins`]. Select `Marketplace`. Type `Assets` in the search field, select it from the search results and install.
 
    ![image](https://github.com/YU000jp/logseq-plugin-multiple-assets/assets/111847207/5a3933c0-13f5-4c21-8fc8-c70429d7ad29)
 

@@ -7,17 +7,13 @@
 [![Downloads](https://img.shields.io/github/downloads/YU000jp/logseq-plugin-multiple-assets/total.svg)](https://github.com/YU000jp/logseq-plugin-multiple-assets/releases)
  Published 2023/06/27
 
----
-
-- ⚠️Files are saved not in the `assets/` folder but in the `assets/storages/logseq-plugin-multiple-assets/` folder.
-
-## Feature
-
 ![image](https://github.com/YU000jp/logseq-plugin-multiple-assets/assets/111847207/789a232e-7e37-4033-8048-6d33364eb70d)
 
 ---
 
 ## Getting Started
+
+⚠️Files are saved not in the `assets/` folder but in the `assets/storages/logseq-plugin-multiple-assets/` folder.
 
 ### Install from Logseq Marketplace
 

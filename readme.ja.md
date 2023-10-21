@@ -60,9 +60,13 @@ Logseq マーケットプレイスからインストール
 ## 先行技術とクレジット
 
 ライブラリ >  [@logseq/lib](https://github.com/logseq/logseq/pull/6488)
+
 Logseqプラグイン > [b-yp/ logseq-link-to-local](https://github.com/b-yp/logseq-link-to-local/tree/dev)
+
 Logseqプラグイン > [hkgnp/ logseq-localassets-plugin](https://github.com/hkgnp/logseq-localassets-plugin)
+
 アイコン > [icooon-mono.com](https://icooon-mono.com/15427-%e3%83%95%e3%82%a9%e3%83%ab%e3%83%80%e3%82%a2%e3%82%a4%e3%82%b3%e3%83%b312/)
+
 作者 > [YU000jp (GitHub)](https://github.com/YU000jp)
 
 ---

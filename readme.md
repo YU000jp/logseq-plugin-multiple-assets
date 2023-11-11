@@ -51,6 +51,11 @@ Install from Logseq Marketplace
   - `true` default
   - `false`
 
+### Relation
+
+1. [@xyhp915/ logseq-assets-plus plugin](https://github.com/xyhp915/logseq-assets-plus)
+1. [b-yp/ logseq-link-to-local](https://github.com/b-yp/logseq-link-to-local/tree/dev)
+
 ---
 
 ## Showcase / Questions / Ideas / Help
@@ -61,14 +66,10 @@ Install from Logseq Marketplace
 
 Library >  [@logseq/lib](https://github.com/logseq/logseq/pull/6488)
 
-Logseq Plugin > [b-yp/ logseq-link-to-local](https://github.com/b-yp/logseq-link-to-local/tree/dev)
-
-Logseq Plugin > [hkgnp/ logseq-localassets-plugin](https://github.com/hkgnp/logseq-localassets-plugin)
+Logseq Plugin > [@hkgnp/ logseq-localassets-plugin](https://github.com/hkgnp/logseq-localassets-plugin)
 
 Icon > [icooon-mono.com](https://icooon-mono.com/15427-%e3%83%95%e3%82%a9%e3%83%ab%e3%83%80%e3%82%a2%e3%82%a4%e3%82%b3%e3%83%b312/)
 
-Author > [YU000jp (GitHub)](https://github.com/YU000jp)
-
----
+Author > [@YU000jp](https://github.com/YU000jp)
 
 <a href="https://www.buymeacoffee.com/yu000japan" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png" alt="🍌Buy Me A Coffee" style="height: 42px;width: 152px" ></a>

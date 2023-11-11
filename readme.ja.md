@@ -51,6 +51,11 @@ Logseq マーケットプレイスからインストール
   - `真` デフォルト
   - `偽`
 
+### 関連プラグイン
+
+1. [@xyhp915/ logseq-assets-plus plugin](https://github.com/xyhp915/logseq-assets-plus)
+1. [b-yp/ logseq-link-to-local](https://github.com/b-yp/logseq-link-to-local/tree/dev)
+
 ---
 
 ## ショーケース / 質問 / アイデア / ヘルプ
@@ -61,14 +66,10 @@ Logseq マーケットプレイスからインストール
 
 ライブラリ >  [@logseq/lib](https://github.com/logseq/logseq/pull/6488)
 
-Logseqプラグイン > [b-yp/ logseq-link-to-local](https://github.com/b-yp/logseq-link-to-local/tree/dev)
-
-Logseqプラグイン > [hkgnp/ logseq-localassets-plugin](https://github.com/hkgnp/logseq-localassets-plugin)
+Logseqプラグイン > [@hkgnp/ logseq-localassets-plugin](https://github.com/hkgnp/logseq-localassets-plugin)
 
 アイコン > [icooon-mono.com](https://icooon-mono.com/15427-%e3%83%95%e3%82%a9%e3%83%ab%e3%83%80%e3%82%a2%e3%82%a4%e3%82%b3%e3%83%b312/)
 
-作者 > [YU000jp (GitHub)](https://github.com/YU000jp)
-
----
+製作者 > [@YU000jp](https://github.com/YU000jp)
 
 <a href="https://www.buymeacoffee.com/yu000japan" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png" alt="🍌buy me a coffee コーヒーをおごってください!" style="height: 42px;width: 152px" ></a>

@@ -68,4 +68,4 @@ Logseq マーケットプレイスからインストール
 1. アイコン > [icooon-mono.com](https://icooon-mono.com/15427-%e3%83%95%e3%82%a9%e3%83%ab%e3%83%80%e3%82%a2%e3%82%a4%e3%82%b3%e3%83%b312/)
 1. 製作者 > [@YU000jp](https://github.com/YU000jp)
 
-<a href="https://www.buymeacoffee.com/yu000japan" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png" alt="🍌buy me a coffee コーヒーをおごってください!" style="height: 42px;width: 152px" ></a>
+<a href="https://www.buymeacoffee.com/yu000japan"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a pizza&emoji=🍕&slug=yu000japan&button_colour=FFDD00&font_colour=000000&font_family=Poppins&outline_colour=000000&coffee_colour=ffffff" /></a>

@@ -55,7 +55,7 @@ Install from Logseq Marketplace
 
 ## Showcase / Questions / Ideas / Help
 
-> Go to the [discussion](https://github.com/YU000jp/logseq-plugin-multiple-assets/discussions) tab to ask and find this kind of things.
+> Go to the [Discussions](https://github.com/YU000jp/logseq-plugin-multiple-assets/discussions) tab to ask and find this kind of things.
 
 - Relation
   1. [@xyhp915/ Assets plus plugin](https://github.com/xyhp915/logseq-assets-plus)

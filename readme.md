@@ -1,13 +1,15 @@
 # Logseq Plugin: *Multiple Files into Assets* 📂
 
-[English](https://github.com/YU000jp/logseq-plugin-multiple-assets) | [日本語](https://github.com/YU000jp/logseq-plugin-multiple-assets/blob/main/readme.ja.md)
-
 Normally, Logseq can only store a single file in an asset, but this plugin handles multiple files.
 
+<div align="right">
+ 
+[English](https://github.com/YU000jp/logseq-plugin-multiple-assets) | [日本語](https://github.com/YU000jp/logseq-plugin-multiple-assets/blob/main/readme.ja.md)
 [![latest release version](https://img.shields.io/github/v/release/YU000jp/logseq-plugin-multiple-assets)](https://github.com/YU000jp/logseq-plugin-multiple-assets/releases)
 [![License](https://img.shields.io/github/license/YU000jp/logseq-plugin-multiple-assets?color=blue)](https://github.com/YU000jp/logseq-plugin-multiple-assets/LICENSE)
 [![Downloads](https://img.shields.io/github/downloads/YU000jp/logseq-plugin-multiple-assets/total.svg)](https://github.com/YU000jp/logseq-plugin-multiple-assets/releases)
- Published 2023/06/27
+ Published 20230627 <a href="https://www.buymeacoffee.com/yu000japan"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a pizza&emoji=🍕&slug=yu000japan&button_colour=FFDD00&font_colour=000000&font_family=Poppins&outline_colour=000000&coffee_colour=ffffff" /></a>
+</div>
 
 ## Overview
 
@@ -59,13 +61,11 @@ Install from Logseq Marketplace
 
 - Relation
   1. [@xyhp915/ Assets plus plugin](https://github.com/xyhp915/logseq-assets-plus)
-  1. [b-yp/ Link to Local plugin](https://github.com/b-yp/logseq-link-to-local/tree/dev)
+  1. [@b-yp/ Link to Local plugin](https://github.com/b-yp/logseq-link-to-local/tree/dev)
 
 ## Prior art & Credit
 
-1. Library >  [@logseq/lib](https://github.com/logseq/logseq/pull/6488)
-1. Logseq Plugin > [@hkgnp/ logseq-localassets-plugin](https://github.com/hkgnp/logseq-localassets-plugin)
-1. Icon > [icooon-mono.com](https://icooon-mono.com/15427-%e3%83%95%e3%82%a9%e3%83%ab%e3%83%80%e3%82%a2%e3%82%a4%e3%82%b3%e3%83%b312/)
-1. Author > [@YU000jp](https://github.com/YU000jp)
-
-<a href="https://www.buymeacoffee.com/yu000japan"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a pizza&emoji=🍕&slug=yu000japan&button_colour=FFDD00&font_colour=000000&font_family=Poppins&outline_colour=000000&coffee_colour=ffffff" /></a>
+- Library >  [@logseq/lib](https://github.com/logseq/logseq/pull/6488)
+- Logseq Plugin > [@hkgnp/ logseq-localassets-plugin](https://github.com/hkgnp/logseq-localassets-plugin)
+- Icon > [icooon-mono.com](https://icooon-mono.com/15427-%e3%83%95%e3%82%a9%e3%83%ab%e3%83%80%e3%82%a2%e3%82%a4%e3%82%b3%e3%83%b312/)
+- Author > [@YU000jp](https://github.com/YU000jp)

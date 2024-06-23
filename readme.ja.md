@@ -1,13 +1,14 @@
 # Logseqプラグイン: *Multiple Files into Assets* 📂
 
-[English](https://github.com/YU000jp/logseq-plugin-multiple-assets) | [日本語](https://github.com/YU000jp/logseq-plugin-multiple-assets/blob/main/readme.ja.md)
-
 通常、Logseqはアセットに単一のファイルしか保存できませんが、このプラグインは複数のファイルを処理します。
 
-[![最新リリースバージョン](https://img.shields.io/github/v/release/YU000jp/logseq-plugin-multiple-assets)](https://github.com/YU000jp/logseq-plugin-multiple-assets/releases)
+<div align="right">
+
+[English](https://github.com/YU000jp/logseq-plugin-multiple-assets) | [日本語](https://github.com/YU000jp/logseq-plugin-multiple-assets/blob/main/readme.ja.md) [![最新リリースバージョン](https://img.shields.io/github/v/release/YU000jp/logseq-plugin-multiple-assets)](https://github.com/YU000jp/logseq-plugin-multiple-assets/releases)
 [![ライセンス](https://img.shields.io/github/license/YU000jp/logseq-plugin-multiple-assets?color=blue)](https://github.com/YU000jp/logseq-plugin-multiple-assets/LICENSE)
 [![ダウンロード数](https://img.shields.io/github/downloads/YU000jp/logseq-plugin-multiple-assets/total.svg)](https://github.com/YU000jp/logseq-plugin-multiple-assets/releases)
- 公開日 2023/06/27
+ 公開日 2023/06/27 <a href="https://www.buymeacoffee.com/yu000japan"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a pizza&emoji=🍕&slug=yu000japan&button_colour=FFDD00&font_colour=000000&font_family=Poppins&outline_colour=000000&coffee_colour=ffffff" /></a>
+</div>
 
 ## 概要
 
@@ -59,13 +60,11 @@ Logseq マーケットプレイスからインストール
 
 - 関連プラグイン
   1. [@xyhp915/ logseq-assets-plus plugin](https://github.com/xyhp915/logseq-assets-plus)
-  1. [b-yp/ logseq-link-to-local](https://github.com/b-yp/logseq-link-to-local/tree/dev)
+  1. [@b-yp/ logseq-link-to-local](https://github.com/b-yp/logseq-link-to-local/tree/dev)
 
 ## 先行技術とクレジット
 
-1. ライブラリ >  [@logseq/lib](https://github.com/logseq/logseq/pull/6488)
-1. Logseqプラグイン > [@hkgnp/ logseq-localassets-plugin](https://github.com/hkgnp/logseq-localassets-plugin)
-1. アイコン > [icooon-mono.com](https://icooon-mono.com/15427-%e3%83%95%e3%82%a9%e3%83%ab%e3%83%80%e3%82%a2%e3%82%a4%e3%82%b3%e3%83%b312/)
-1. 製作者 > [@YU000jp](https://github.com/YU000jp)
-
-<a href="https://www.buymeacoffee.com/yu000japan"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a pizza&emoji=🍕&slug=yu000japan&button_colour=FFDD00&font_colour=000000&font_family=Poppins&outline_colour=000000&coffee_colour=ffffff" /></a>
+- ライブラリ >  [@logseq/lib](https://github.com/logseq/logseq/pull/6488)
+- Logseqプラグイン > [@hkgnp/ logseq-localassets-plugin](https://github.com/hkgnp/logseq-localassets-plugin)
+- アイコン > [icooon-mono.com](https://icooon-mono.com/15427-%e3%83%95%e3%82%a9%e3%83%ab%e3%83%80%e3%82%a2%e3%82%a4%e3%82%b3%e3%83%b312/)
+- 製作者 > [@YU000jp](https://github.com/YU000jp)

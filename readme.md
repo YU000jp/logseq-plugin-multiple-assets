@@ -61,7 +61,7 @@ Install from Logseq Marketplace
 
 - Relation
   1. [@xyhp915/ Assets plus plugin](https://github.com/xyhp915/logseq-assets-plus)
-  1. [@b-yp/ Link to Local plugin](https://github.com/b-yp/logseq-link-to-local/tree/dev)
+  1. [@b-yp/ Link to Local plugin](https://github.com/b-yp/logseq-link-to-local)
 
 ## Prior art & Credit
 

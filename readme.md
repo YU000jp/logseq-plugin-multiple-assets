@@ -2,6 +2,9 @@
 
 Normally, Logseq can only store a single file in an asset, but this plugin handles multiple files.
 
+> [!WARNING]
+This plugin does not work with Logseq db version.
+
 <div align="right">
  
 [English](https://github.com/YU000jp/logseq-plugin-multiple-assets) | [日本語](https://github.com/YU000jp/logseq-plugin-multiple-assets/blob/main/readme.ja.md)

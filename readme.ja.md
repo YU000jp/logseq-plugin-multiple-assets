@@ -2,6 +2,9 @@
 
 通常、Logseqはアセットに単一のファイルしか保存できませんが、このプラグインは複数のファイルを処理します。
 
+> [!WARNING]
+>このプラグインはLogseq dbバージョンでは動作しません。
+
 <div align="right">
 
 [English](https://github.com/YU000jp/logseq-plugin-multiple-assets) | [日本語](https://github.com/YU000jp/logseq-plugin-multiple-assets/blob/main/readme.ja.md) [![最新リリースバージョン](https://img.shields.io/github/v/release/YU000jp/logseq-plugin-multiple-assets)](https://github.com/YU000jp/logseq-plugin-multiple-assets/releases)

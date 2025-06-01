@@ -3,7 +3,7 @@
 Normally, Logseq can only store a single file in an asset, but this plugin handles multiple files.
 
 > [!WARNING]
-This plugin does not work with Logseq db version or v9.10.11, v0.10.12.
+This plugin does not work with Logseq DB version or `v9.10.11`, `v0.10.12`.
 
 <div align="right">
  

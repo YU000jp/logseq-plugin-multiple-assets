@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/YU000jp/logseq-plugin-multiple-assets/compare/v1.2.0...v1.3.0) (2025-06-02)
+
+
+### Features
+
+* This plugin only supports Logseq ver 0.10.9 and below. [#11](https://github.com/YU000jp/logseq-plugin-multiple-assets/issues/11) ([8e1f7e5](https://github.com/YU000jp/logseq-plugin-multiple-assets/commit/8e1f7e521cf1b6ef40e21b37a920cb244fc0d45e))
+
 # [1.2.0](https://github.com/YU000jp/logseq-plugin-multiple-assets/compare/v1.1.4...v1.2.0) (2023-09-30)
 
 

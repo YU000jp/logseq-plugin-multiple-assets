@@ -1,21 +1,23 @@
 import '@logseq/libs' //https://plugins-doc.logseq.com/
 import { IAsyncStorage } from '@logseq/libs/dist/modules/LSPlugin.Storage'
-import { AppInfo, SettingSchemaDesc } from '@logseq/libs/dist/LSPlugin.user'
+import { SettingSchemaDesc } from '@logseq/libs/dist/LSPlugin.user'
 import { setup as l10nSetup, t } from "logseq-l10n" //https://github.com/sethyuan/logseq-l10n
 import ja from "./translations/ja.json"
 let logseqVersion: string = "" //バージョンチェック用
-let logseqVersionMdSupport: boolean = false //バージョンチェック用
+let logseqDbGraph: boolean = false //グラフ種別チェック用
 
 
 /* main */
 const main = async () => {
 
-  // バージョンチェック
+  // グラフ種別チェック(ファイルアセットへ書き込むため、ファイルグラフのみ対応)
 
-  logseqVersionMdSupport = await checkLogseqVersion() // MDモデルだった場合はtrue
-  if (logseqVersionMdSupport === false) {
-    // Logseq ver 0.10.9以下にしか対応していない
-    logseq.UI.showMsg("The 'Multiple Files into Assets' plugin only supports Logseq ver 0.10.9 and below.", "warning", { timeout: 5000 })
+  const { version } = await fetchAppInfo()
+  logseqVersion = version //情報用
+  logseqDbGraph = await checkLogseqDbGraph() // DBグラフだった場合はtrue
+  if (logseqDbGraph === true) {
+    // DBグラフには対応していない(ファイルベースのグラフのみ対応)
+    logseq.UI.showMsg("The 'Multiple Files into Assets' plugin does not support DB graphs. Please open a file-based graph.", "warning", { timeout: 5000 })
     return
   }
 
@@ -43,23 +45,23 @@ const main = async () => {
 }/* end_main */
 
 
-// MDモデルかどうかのチェック DBモデルはfalse
-const checkLogseqVersion = async (): Promise<boolean> => {
-  const logseqInfo = (await logseq.App.getInfo("version")) as AppInfo | any
-  //  0.11.0もしくは0.11.0-alpha+nightly.20250427のような形式なので、先頭の3つの数値(1桁、2桁、2桁)を正規表現で取得する
-  const version = logseqInfo.match(/(\d+)\.(\d+)\.(\d+)/)
-  if (version) {
-    logseqVersion = version[0] //バージョンを取得
-    // console.log("logseq version: ", logseqVersion)
+// アプリ情報取得(バージョン解析・情報用のみ。グラフ種別の判定には使わない)
+const fetchAppInfo = async (): Promise<{ version: string; isDbEra: boolean }> => {
+  const info = (await logseq.App.getInfo()) as { version?: string } | null
+  const version = typeof info?.version === "string" ? info.version : "0.0.0"
+  const m = version.match(/(\d+)\.(\d+)\.(\d+)/)
+  const isDbEra = m ? (Number(m[1]) >= 2 || (Number(m[1]) === 0 && Number(m[2]) >= 11)) : false
+  return { version: m ? m[0] : version, isDbEra }
+}
 
-    // もし バージョンが0.10.9以下ならば、logseqVersionMdSupportをtrueにする
-    if (logseqVersion.match(/0\.(([0-9])|10\.([0-9]|0))\d*/)) {
-      logseqVersionMdSupport = true
-      // console.log("logseq version is 0.10.9 or lower")
-      return true
-    } else logseqVersionMdSupport = false
-  } else logseqVersion = "0.0.0"
-  return false
+// 現在のグラフがDBグラフかどうかのチェック(公式API。0.10.xホストでは未実装 → false)
+const checkLogseqDbGraph = async (): Promise<boolean> => {
+  try {
+    const value = await (logseq.App as any).checkCurrentIsDbGraph()
+    return typeof value === "boolean" ? value : false
+  } catch {
+    return false // API非搭載ホスト = DBグラフを開けない旧アプリ
+  }
 }
 
 interface Files {

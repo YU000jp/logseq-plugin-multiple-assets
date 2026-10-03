@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/YU000jp/logseq-plugin-multiple-assets/compare/v1.3.0...v1.3.1) (2026-10-03)
+
+
+### Bug Fixes
+
+* グラフ種別の判定を公式APIに置き換え、ファイルグラフのみ対応とする ([e3cfa46](https://github.com/YU000jp/logseq-plugin-multiple-assets/commit/e3cfa46a2eaeb97b3925b2314f54a47dc60c4e51))
+
 # [1.3.0](https://github.com/YU000jp/logseq-plugin-multiple-assets/compare/v1.2.0...v1.3.0) (2025-06-02)
 
 
